@@ -1,0 +1,90 @@
+{
+  "student_info": {
+    "name": "김진수",
+    "student_id": "12165055",
+    "created_date": "2026-01-23"
+  },
+  "works": [
+    {
+      "session": 2,
+      "timestamp": "2026-01-23 05:46:53",
+      "prompt": "an apple",
+      "negative_prompt": "-",
+      "technique": "Zero-shot 프롬프팅",
+      "notes": "",
+      "image_path": "images/session2_1.png"
+    },
+    {
+      "session": 2,
+      "timestamp": "2026-01-23 05:46:53",
+      "prompt": "A hyper-realistic red apple placed at the center of the image,\nperfectly round shape with subtle natural asymmetry,\nglossy yet slightly matte skin texture, visible tiny pores and natural speckles,\ndeep crimson red color with gentle yellow and green undertones near the stem,\na short brown stem with realistic wood texture,\nsoft natural light coming from the left side, creating smooth highlights and soft shadows,\nshallow depth of field, background softly blurred (bokeh),\nultra-high resolution, macro photography style,\nphotorealistic, cinematic lighting, studio quality, 8K detail",
+      "negative_prompt": "-",
+      "technique": "상세 프롬프팅",
+      "notes": "",
+      "image_path": "images/session2_2.png"
+    },
+    {
+      "session": 2,
+      "timestamp": "2026-01-23 05:48:42",
+      "prompt": "an apple",
+      "negative_prompt": "-",
+      "technique": "Zero-shot 프롬프팅",
+      "notes": "제로 샷은 단순하고 맞지 않는 이미지가 나올 수 있으나 제로샷을 통하여 더 디테일한 이미지를 생성할 수 있음",
+      "image_path": "images/session2_3.png"
+    },
+    {
+      "session": 2,
+      "timestamp": "2026-01-23 05:48:42",
+      "prompt": "A hyper-realistic red apple placed at the center of the image,\nperfectly round shape with subtle natural asymmetry,\nglossy yet slightly matte skin texture, visible tiny pores and natural speckles,\ndeep crimson red color with gentle yellow and green undertones near the stem,\na short brown stem with realistic wood texture,\nsoft natural light coming from the left side, creating smooth highlights and soft shadows,\nshallow depth of field, background softly blurred (bokeh),\nultra-high resolution, macro photography style,\nphotorealistic, cinematic lighting, studio quality, 8K detail",
+      "negative_prompt": "-",
+      "technique": "상세 프롬프팅",
+      "notes": "제로 샷은 단순하고 맞지 않는 이미지가 나올 수 있으나 제로샷을 통하여 더 디테일한 이미지를 생성할 수 있음",
+      "image_path": "images/session2_4.png"
+    },
+    {
+      "session": 3,
+      "timestamp": "2026-01-23 05:54:12",
+      "prompt": "a forest, anime style, cel shaded, vibrant colors, detailed, dramatic lighting, strong shadows, cinematic, wide shot, panoramic view",
+      "negative_prompt": "-",
+      "technique": "스타일 프롬프팅",
+      "notes": "",
+      "image_path": "images/session3_1.png"
+    },
+    {
+      "session": 4,
+      "timestamp": "2026-01-23 06:19:27",
+      "prompt": "a beautiful portrait of a young woman, elegant dress, garden background, soft lighting",
+      "negative_prompt": "bad hands, extra fingers, mutated hands, poorly drawn face, mutation, deformed, ugly",
+      "technique": "네거티브 프롬프팅",
+      "notes": "네거티브 프롬프트에 따라, GS에 따라 이미지 생성에 차이가 생긴다",
+      "image_path": "images/session4_1.png"
+    },
+    {
+      "session": 5,
+      "timestamp": "2026-01-23 06:28:27",
+      "prompt": "a person sitting alone on an empty bench, rainy day, view from behind, grey cloudy sky, melancholic atmosphere",
+      "negative_prompt": "blurry, low quality, distorted, text, watermark",
+      "technique": "Step-back 프롬프팅",
+      "notes": "",
+      "image_path": "images/session5_1.png"
+    },
+    {
+      "session": 6,
+      "timestamp": "2026-01-23 06:34:55",
+      "prompt": "a robot, reading a book, in an ancient library, warm candelight, dust particles floating in air, oil painting style, renaissance aesthetic, highly detailed",
+      "negative_prompt": "blurry, low quality",
+      "technique": "CoT 레이어 빌딩",
+      "notes": "레이어를 쌓아 프롬프트를 설계하면 더욱 디테일한 이미지 생성 가능",
+      "image_path": "images/session6_1.png"
+    },
+    {
+      "session": 7,
+      "timestamp": "2026-01-23 06:40:15",
+      "prompt": "masterpiece, best quality, very aesthetic, newest,\ndragon, black dragon, dragon wings,\nfireball, dragon looking at viewer\nfantasy background, castle background,, highly detailed, sharp focus, 8k resolution",
+      "negative_prompt": "blurry, low quality, distorted, ugly, bad anatomy, out of frame,",
+      "technique": "종합",
+      "notes": "종합적으로 temperature, 퓨샷, 제로샷, 스텝 백, 레이어를 이용해서 이미지를 생성하면 상황에 따라 가장 괜찮은이미지를 만들 수 있다.",
+      "image_path": "images/session7_1.png"
+    }
+  ]
+}
